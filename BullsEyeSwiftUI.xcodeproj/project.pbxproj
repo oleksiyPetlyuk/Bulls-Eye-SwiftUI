@@ -26,6 +26,7 @@
 		FA577C30233E9E4600044144 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA577C32233E9E4600044144 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAD582A5235A4600007F1016 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		FAD582A7235A5A75007F1016 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,8 @@
 		FA577C18233E9E4500044144 = {
 			isa = PBXGroup;
 			children = (
+				FAD582A7235A5A75007F1016 /* README.md */,
+				FAD582A8235A5B1B007F1016 /* screenshots */,
 				FA577C23233E9E4500044144 /* BullsEyeSwiftUI */,
 				FA577C22233E9E4500044144 /* Products */,
 			);
@@ -76,6 +79,13 @@
 				FA577C2D233E9E4600044144 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAD582A8235A5B1B007F1016 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
